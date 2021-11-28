@@ -32,6 +32,8 @@ Fetching periodic listing for NFT:  mekaverse
 
 Potential Listing Below floor: https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5875
 ```
+![alt text](https://github.com/OpenSea-Sniper/OpenSea-Python-Bot/blob/main/1.png?raw=true)
+
 
 ## Automatic Buy Mode (curretly in beta)
 ```
