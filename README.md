@@ -3,8 +3,15 @@ OpenSea Python Bot can be used in 2 modes. When `--nft` parameter is passed, it 
 
 
 # Usage
+### Installation:
+
+The OpenSea Python3 bot only works with Python3. To install the required packages you can do the following:
 ```
-usage: python3 python_sniper.py [-h] [--nft NFT] --mnemonic MNEMONIC --wallet WALLET [--url URL]
+pip3 install -r requirements.txt
+```
+Usage of the script is straightforward:
+```
+Usage: python3 python_sniper.py [-h] [--nft NFT] --mnemonic MNEMONIC --wallet WALLET [--url URL]
 
 optional arguments:
   -h, --help           show this help message and exit
