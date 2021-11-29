@@ -1,6 +1,5 @@
 # OpenSea-Python-Bot
-OpenSea Python Bot can be used in 2 modes. When `--nft` parameter is passed, it will allow you to continuously monitor an NFT project and automatically snipe/buy if the price of the NFT is 50% or lower than it's floor value. If the price of the NFT is 20-40% below it's floor, then the bot can send a notification on Discord or print the result on-screen. The script can also be used to buy a specific NFT by passing the `--url` parameter. In that case the bot will automatically  buy the NFT at its current price value. ***This is currently being built and is in Beta mode. Expect the commit in a few days***
-
+OpenSea Python Bot can be used in 2 modes. When `--nft` parameter is passed, it will allow you to continuously monitor an NFT project and automatically snipe/buy if the price of the NFT is 50% or lower than it's floor value. If the price of the NFT is 20-40% below it's floor, then the bot can send a notification on Discord or print the result on-screen. The script can also be used to buy a specific NFT by passing the `--url` parameter. In that case, the bot will automatically buy the NFT at its current price value. 
 
 # Usage
 ### Installation:
