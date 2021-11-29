@@ -38,7 +38,7 @@ Website:  https://themekaverse.com/
 Verified Status:  verified
 Fetching periodic listing for NFT:  mekaverse
 
-Potential Listing Below floor: https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5875
+Potential Listing Below floor: https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6186
 ```
 ![alt text](https://github.com/OpenSea-Sniper/OpenSea-Python-Bot/blob/main/1.png?raw=true)
 
