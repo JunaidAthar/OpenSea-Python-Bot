@@ -44,6 +44,7 @@ Potential Listing Below floor: https://opensea.io/assets/0x9a534628b4062e123ce7e
 
 
 ## Automatic Buy Mode (curretly in beta)
+Few tweaks are being made so expect a full commit in a few days. Currently in beta stage.
 ```
 Example:
 
