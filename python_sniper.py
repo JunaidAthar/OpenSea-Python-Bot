@@ -226,7 +226,7 @@ if(args.nft):
 		print("Enter valid mnemonic value. Incorrect keyword supplied")
 		exit()
 	pool = Pool(pool_size)
-	pool.apply_async(worker, (args.nft,args.mnemonic,args.wallet))
+	pool.apply_async(worker, (args.nft,args.mnemonic))
 	pool.close()
 	pool.join()
 elif(args.url):
