@@ -68,7 +68,7 @@ def getfloor2(slug,asset_contract,identifier,mnemonic,floor_price):
 	data = resp.json()
 	if (resp.status_code == 429):
 		print("Rate Limited")
-		time.sleep(20)
+		time.sleep(30)
 		resp = requests.get(url=url)
 		data = resp.json()
 	for i in data['asset_events']:
@@ -131,7 +131,7 @@ def getprice(slug,mnemonic):
 		response = get_peridic_listing(slug)
 		if(response.status_code == 200):
 			ab=1
-		time.sleep(20)
+		time.sleep(30)
 		sys.stdout.write("\033[F")
 		sys.stdout.write("\033[K") #clear line
 		print("..")
@@ -221,8 +221,12 @@ ap.add_argument("--url", required=False, help="URL of the NFT asset on OpenSea. 
 args = ap.parse_args()
 
 if(args.nft):
+	validate_mnemonic = args.mnemonic.split()
+	if(len(validate_mnemonic) < 11):
+		print("Enter valid mnemonic value. Incorrect keyword supplied")
+		exit()
 	pool = Pool(pool_size)
-	pool.apply_async(worker, (args.nft,args.mnemonic))
+	pool.apply_async(worker, (args.nft,args.mnemonic,args.wallet))
 	pool.close()
 	pool.join()
 elif(args.url):
